@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>servlet</servlet-name>
+  	<display-name>servlet</display-name>
+  	<description></description>
+  	<servlet-class>servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Servlet2</servlet-name>
+  	<display-name>Servlet2</display-name>
+  	<description></description>
+  	<servlet-class>Servlet2</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Servlet3</servlet-name>
+  	<display-name>Servlet3</display-name>
+  	<description></description>
+  	<servlet-class>Servlet3</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Student_add_Servlet</servlet-name>
+  	<display-name>Student_add_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>Student_add_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Student_delete_Servlet</servlet-name>
+  	<display-name>Student_delete_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>Student_delete_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Student_search_Servlet</servlet-name>
+  	<display-name>Student_search_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>Student_search_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Student_update_Servlet</servlet-name>
+  	<display-name>Student_update_Servlet</display-name>
+  	<description></description>
+  	<servlet-class>Student_update_Servlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>servlet</servlet-name>
+  	<url-pattern>/servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Servlet2</servlet-name>
+  	<url-pattern>/Servlet2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Servlet3</servlet-name>
+  	<url-pattern>/Servlet3</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Student_add_Servlet</servlet-name>
+  	<url-pattern>/Student_add_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Student_delete_Servlet</servlet-name>
+  	<url-pattern>/Student_delete_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Student_search_Servlet</servlet-name>
+  	<url-pattern>/Student_search_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Student_update_Servlet</servlet-name>
+  	<url-pattern>/Student_update_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
